@@ -1,0 +1,136 @@
+{
+  "_id": "5b5a8bdb4f3ec81bbbba19fc",
+  "site_name": "这是个测试网站",
+  "site": "site",
+  "site_template": "1",
+  "site_desc": "测试描述，巴拉巴拉",
+  "site_menus": [
+    {
+      "_id": "5b5a8bdb4f3ec81bbbba19fe",
+      "menu_name": "菜单一",
+      "menu": "menu1",
+      "menu_url": "/menu1"
+    },
+    {
+      "_id": "5b5a8bdb4f3ec81bbbba19fd",
+      "menu_name": "菜单二",
+      "menu": "menu2",
+      "menu_url": "/menu2"
+    }
+  ],
+  "site_pages": [
+    {
+      "page_config": {
+        "url": "xxx/ssss",
+        "fields": {
+          "searchFields": [
+            {
+              "key": "name",
+              "label": "姓名",
+              "displayType": "string"
+            },
+            {
+              "key": "sex",
+              "label": "性别",
+              "displayType": "checkbox",
+              "extra": [
+                {
+                  "label": "男",
+                  "value": 1
+                },
+                {
+                  "label": "女",
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "showFields": [
+            {
+              "key": "name",
+              "label": "姓名",
+              "displayType": "string"
+            },
+            {
+              "key": "sex",
+              "label": "性别",
+              "displayType": "checkbox",
+              "extra": [
+                {
+                  "label": "男",
+                  "value": 1
+                },
+                {
+                  "label": "女",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "_id": "5b5a8bdb4f3ec81bbbba1a00",
+      "page_name": "测试页面1",
+      "page_url": "xxx/yyyy",
+      "page": "page1",
+      "page_template": "2"
+    },
+    {
+      "page_config": {
+        "url": "xxx/ssss",
+        "fields": {
+          "searchFields": [
+            {
+              "key": "name",
+              "label": "姓名",
+              "displayType": "string"
+            },
+            {
+              "key": "sex",
+              "label": "性别",
+              "displayType": "checkbox",
+              "extra": [
+                {
+                  "label": "男",
+                  "value": 1
+                },
+                {
+                  "label": "女",
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "showFields": [
+            {
+              "key": "name",
+              "label": "姓名",
+              "displayType": "string"
+            },
+            {
+              "key": "sex",
+              "label": "性别",
+              "displayType": "checkbox",
+              "extra": [
+                {
+                  "label": "男",
+                  "value": 1
+                },
+                {
+                  "label": "女",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "_id": "5b5a8bdb4f3ec81bbbba19ff",
+      "page_name": "测试页面2",
+      "page": "page2",
+      "page_url": "xxx/yyyy",
+      "page_template": "2"
+    }
+  ],
+  "__v": 0
+}

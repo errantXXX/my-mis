@@ -1,0 +1,124 @@
+{
+  "_id": "5b69616f47bf254bacb44c6e",
+  "site_name": "这是个测试网站",
+  "site": "mis_test",
+  "site_template": "1",
+  "site_desc": "测试描述，巴拉巴拉",
+  "site_menus": [
+    {
+      "_id": "5b6961ae9950174c40c70421",
+      "menu": "menu",
+      "menu_name": "菜单一",
+      "menu_url": "/site/search"
+    }
+  ],
+  "site_pages": [
+    {
+      "page_config": {
+        "selected_components": [
+          "searchFields",
+          "showFields"
+        ],
+        "url": "http://10.2.18.15:3200/api/users",
+        "fields": {
+          "searchFields": [
+            {
+              "label": "年龄",
+              "key": "age",
+              "displayType": "input"
+            },
+            {
+              "label": "职业",
+              "key": "job",
+              "displayType": "input"
+            },
+            {
+              "label": "姓名",
+              "key": "name",
+              "displayType": "input"
+            }
+          ],
+          "showFields": [
+            {
+              "label": "年龄",
+              "key": "age",
+              "displayType": "input"
+            },
+            {
+              "label": "职业",
+              "key": "job",
+              "displayType": "input"
+            },
+            {
+              "label": "姓名",
+              "key": "name",
+              "displayType": "input"
+            }
+          ]
+        }
+      },
+      "_id": "5b69616f47bf254bacb44c72",
+      "page_name": "搜索页面",
+      "page_url": "/site/search",
+      "page": "search",
+      "page_template": "1",
+      "crud_url": "/site/detail"
+    },
+    {
+      "page_config": {
+        "selected_components": [
+          "showFields"
+        ],
+        "url": "http://10.2.18.15:3200/api/users",
+        "fields": {
+          "searchFields": [
+            {
+              "key": "name",
+              "label": "姓名",
+              "displayType": "string"
+            },
+            {
+              "key": "sex",
+              "label": "性别",
+              "displayType": "checkbox",
+              "extra": [
+                {
+                  "label": "男",
+                  "value": 1
+                },
+                {
+                  "label": "女",
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "showFields": [
+            {
+              "label": "姓名",
+              "key": "name",
+              "displayType": "input"
+            },
+            {
+              "label": "年龄",
+              "key": "age",
+              "displayType": "input"
+            },
+            {
+              "label": "职业",
+              "key": "job",
+              "displayType": "input"
+            }
+          ]
+        }
+      },
+      "_id": "5b69616f47bf254bacb44c71",
+      "page_name": "详情页面",
+      "page": "detail",
+      "page_url": "/site/detail",
+      "page_template": "2",
+      "crud_url": ""
+    }
+  ],
+  "__v": 10
+}
